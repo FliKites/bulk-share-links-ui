@@ -82,7 +82,7 @@ export default function Upload() {
           </div>
         </div>
         {csvdownloadLink ? (
-          <a className="download-link" href={csvdownloadLink}>
+          <a className="download-link" href={csvdownloadLink} target="_blank" download="sharelinks">
             Download Share Links
           </a>
         ) : null}
